@@ -1,2 +1,2 @@
 # Codeforces
-Sample codes accepted for problems in [Codeforces](http://www.codeforces.com).
+Sample codes accepted to problems in [Codeforces](http://www.codeforces.com).
