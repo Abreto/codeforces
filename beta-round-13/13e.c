@@ -12,9 +12,9 @@ for(;ISDIGIT(c);c=getchar())*n=(*n)*10+c-'0';
 }
 void putn(int n)
 {
-char ns[16],nd=0;
-while(n) {ns[++nd]=n%10+'0';n/=10;}
-while(nd) putchar(ns[nd--]);
+int ns[16]={0,n%10},nd=1;
+while(n/=10) ns[++nd]=n%10;
+while(nd) putchar(ns[nd--]+'0');
 }
 
 int N, M;
