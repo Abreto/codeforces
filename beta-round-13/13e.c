@@ -55,8 +55,8 @@ void worker1(void)
 }
 
 int chunk;
-int count[MAXN] = {0};
-int next[MAXN] = {0};
+int count[MAXN];
+int next[MAXN];
 
 void set_chunk(void)
 {
